@@ -1,0 +1,29 @@
+:root {
+	--background-color: rgb(255, 255, 255);
+}
+
+
+html {
+	box-sizing: border-box;
+}
+
+/* наследуем от родителя */
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Inter', sans-serif;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
